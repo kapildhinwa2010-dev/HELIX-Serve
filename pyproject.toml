@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HELIX-Serve"
+version = "1.0.0"
+description = "HELIX serving system"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Kapil Dhinwa"}]
+
+[project.urls]
+Homepage = "https://github.com/kapildhinwa2010-dev/HELIX-Serve"
+
+[tool.setuptools]
+packages = ["helix_serve"]
